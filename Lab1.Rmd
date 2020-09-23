@@ -1,7 +1,9 @@
 ---
-title: "Lab 1: Data Manipulation, Random Number Generation"
+title: 'Lab 1: Data Manipulation, Random Number Generation'
 date: "September 21, 2020"
-output: pdf_document
+output:
+  html_document:
+    df_print: paged
 ---
 ```{r setup, message = F, include=FALSE}
 library(tidyverse)
